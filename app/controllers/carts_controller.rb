@@ -20,7 +20,7 @@ class CartsController < ApplicationController
         format.html # show.html.erb
         format.xml { render :xml => @cart }
       end
-    endgi
+    end
   end
 
   # GET /carts/new
